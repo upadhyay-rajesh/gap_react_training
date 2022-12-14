@@ -1,0 +1,18 @@
+.myclass{
+    color:blue;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue !important;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive !important;
+    }
+  }
